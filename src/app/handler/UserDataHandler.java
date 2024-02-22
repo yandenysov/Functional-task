@@ -11,7 +11,7 @@ public class UserDataHandler {
 
     private View view;
     public UserDataHandler() {
-        view = new View();
+        this.view = new View();
     }
 
     public void handleData(List<User> userList, Consumer<User> consumer) {
